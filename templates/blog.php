@@ -1,6 +1,8 @@
+<?php /* Template Name:Blog Template */ get_header(); ?>
+    
 <?php get_header(); ?>
 
-	<main role="main" class="section-blog" >
+	<main role="main">
 		<!-- section -->
 		<section>
 
