@@ -111,7 +111,7 @@ function html5blank_styles()
    
 }
 function prefix_add_footer_styles() {
-    wp_enqueue_style( 'html5blank', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'html5blank', get_template_directory_uri() . '/style.min.css' );
     wp_enqueue_style('html5blank'); // Enqueue it!
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
