@@ -15,7 +15,7 @@
                             </h2>
                         </div>
                         <div class="descripcion-seo-section">
-                            <p>¿Tus clientes no te encuentran en la web?. Con este servicio te ayudamos a optimizar tu sitio web para que logres posicionarte en los primeros resultados de búsqueda de Google, Yahoo, Bing y otros buscadores. Envianos la url de tu sitio web y obten <strong>gratis</strong> un analisis completo del SEO de tu página.</p>
+                            <p>¿Tus clientes no te encuentran en la web?. Con este servicio te ayudaremos a optimizar tu sitio para que logres posicionarte entre los primeros resultados de búsqueda en Google, Yahoo y Bing. Envíanos la url de tu sitio web y obten <strong>gratis</strong> un análisis SEO completo de tu página.</p>
                         </div>
                     </div>
                    
@@ -25,7 +25,7 @@
                     <div class="contenedor-section">
                       
                         <div class="descripcion">
-                            <p>Creamos páginas web profesionales, creativas y efectivas. Desde eccomerce, CMS con Wordpress, Landings Pages, Sistemas de reservaciones para Tours, sistemas de reservaciones para Restaurantes y para <strong>Hoteles</strong></p>
+                            <p>Creamos páginas web profesionales, creativas y efectivas. Desde carritos de compra tipo ecommerce, CMS's con Wordpress, API´s, Landings Pages para campañas de mailing, <strong>sistemas de reservaciones</strong> para Tours, sistemas de reservaciones para Restaurantes y para <strong>Hoteles</strong></p>
                         </div>
                         <div class="title-section">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/slider/compu.svg" alt="">
