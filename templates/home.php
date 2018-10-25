@@ -47,8 +47,8 @@
                             </h2>
                         </div>
                         <div class="descripcion">
-                            <p>Toda empresa debe tener su propia identidad. Creamos la presencia corporativa de tu Startup o negocio para que pueda tener una imagen mas profesional. Diseñamos <strong>logotipos</strong>, banners, sitios web, <strong>aplicaciones móviles</strong>, anuncios para facebook, displays para Ads de Google y más.
-                            Contactanos y te ayudaremos a crear tu personalidad digital.
+                            <p>Toda empresa debe tener su propia identidad. Creamos la presencia corporativa de tu Startup o negocio para que pueda tener una imagen más profesional. Diseñamos <strong>logotipos</strong>, banners, sitios web, <strong>aplicaciones móviles</strong>, anuncios para facebook, displays para Ad´s de Google y más.
+                            Contáctanos y te ayudaremos a crear tu personalidad digital.
                             </p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             </h2>
                         </div>
                         <div class="descripcion-section">
-                            <p>Desarrollo de aplicaciones móviles nativas en Android, IOS y Multiplataforma. Renueva tu negocio y crea una App para optimizar los procesos dentro de tu empresa.</p>
+                            <p>Desarrollo de aplicaciones móviles nativas en Android, IOS y Multiplataforma con soporte para Windows Mobile. Renueva tu negocio y crea una App para optimizar los procesos dentro de tu empresa.</p>
                         </div>
                     </div>
                    
