@@ -73,7 +73,7 @@
                     <div class="contenedor-section">
                       
                         <div class="descripcion">
-                            <p>Sabemos que tener presencia en las redes sociales, es escencial para hacer crecer tu negocio. Por suerte contamos expertos en el tema y podemos ayudarte en la administración de tus redes sociales. Un community manager podrá crearte un perfil en las redes mas populares como Facebook, Instagram, Twitter y Youtube. Además de ayudarte a gestionar el contenido, tambien podemos crear increibles campañas de publicidad con estrategias de <strong>vanguardia</strong> que dejarán asombrados a todos tus seguidores.</p>
+                            <p>Sabemos que tener presencia en las redes sociales, es escencial para hacer crecer tu negocio. Por suerte contamos expertos en el tema y podemos ayudarte en la administración de tus redes sociales. Un community manager podrá crearte un perfil en las redes mas populares de la actualidad, como Facebook, Instagram, Twitter y Youtube. Además de podemos ayudarte a gestionar el contenido, tambien podemos crear increibles campañas de publicidad con estrategias <strong>vanguardistas</strong> que dejarán asombrados a todos tus seguidores o clientes.</p>
                         </div>
                         <div class="title-section">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/slider/community-manager-icon.svg" alt="">
