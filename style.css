@@ -914,6 +914,14 @@ footer a{
 }
 
 @media screen and (max-width: 725px) {
+    .contenedor-section{
+        flex-direction: column;
+        width: 90%;
+    }
+    #optimizacion-seo-section .descripcion-seo-section, #mentory-body .descripcion, #responsive-body .descripcion-section{
+        width: 100%;
+        padding: 0;
+    }
     .item-slider h4{
         font-size: 1.2rem;
     }
@@ -943,7 +951,7 @@ footer a{
        
     }
     .hamburger i{
-        font-size: 1.6em;
+        font-size: 3rem;
     }
     .menuitem {
         padding: 0;
@@ -994,10 +1002,15 @@ footer a{
         border:none;
         height: 10%;
         z-index: 12;
-        background: #48c9b0;
+        background: #f5ce4e;
         border-radius:0;
         bottom: 0;
+        flex-direction: row;
         top: initial;
+    }
+    .social-nets li{
+
+    margin: 10px 5px;
     }
     .webdi-container{
         width: 90%;
