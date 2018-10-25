@@ -46,7 +46,11 @@
 
 					<!-- nav -->
 					<nav class="nav menu" role="navigation">
-						<?php html5blank_nav(); ?>
+						<?php if(html5blank_nav()){
+							html5blank_nav();
+						}else{
+
+						} ?>
 					</nav>
                         
                               
@@ -55,8 +59,8 @@
 
 			</header>
             <ul class="social-nets">
-                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/tuwebdi"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/tuwebdi"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/tuwebdi/"><i class="fa fa-instagram"></i></a></li>
             </ul>
 			<!-- /header -->

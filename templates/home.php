@@ -15,7 +15,7 @@
                             </h2>
                         </div>
                         <div class="descripcion-seo-section">
-                            <p>Optimizamos tu sitio web para que logres posicionarte en los primeros resultados de búsqueda en los buscadores como Google, Yahoo y Bing</p>
+                            <p>¿Tus clientes no te encuentran en la web?. Con este servicio te ayudamos a optimizar tu sitio web para que logres posicionarte en los primeros resultados de búsqueda de Google, Yahoo, Bing y otros buscadores. Envianos la url de tu sitio web y obten <strong>gratis</strong> un analisis completo del SEO de tu página.</p>
                         </div>
                     </div>
                    
@@ -47,7 +47,7 @@
                             </h2>
                         </div>
                         <div class="descripcion">
-                            <p>Toda empresa debe tener su propia identidad. Creamos la presencia corporativa de tu Startup o negocio para que pueda tener una imagen mas profesional. Diseñamos <strong>logotipos</strong>, banners, sitios web, applicaciones móviles, anuncios para facebook, displays para Adds de Google y más.
+                            <p>Toda empresa debe tener su propia identidad. Creamos la presencia corporativa de tu Startup o negocio para que pueda tener una imagen mas profesional. Diseñamos <strong>logotipos</strong>, banners, sitios web, <strong>aplicaciones móviles</strong>, anuncios para facebook, displays para Ads de Google y más.
                             Contactanos y te ayudaremos a crear tu personalidad digital.
                             </p>
                         </div>
@@ -73,7 +73,7 @@
                     <div class="contenedor-section">
                       
                         <div class="descripcion">
-                            <p>Creamos páginas web profesionales, creativas y efectivas. Desde eccomerce, CMS con Wordpress, Landings Pages, Sistemas de reservaciones para Tours, sistemas de reservaciones para Restaurantes y para <strong>Hoteles</strong></p>
+                            <p>Sabemos que tener presencia en las redes sociales, es escencial para hacer crecer tu negocio. Por suerte contamos expertos en el tema y podemos ayudarte en la administración de tus redes sociales. Un community manager podrá crearte un perfil en las redes mas populares como Facebook, Instagram, Twitter y Youtube. Además de ayudarte a gestionar el contenido, tambien podemos crear increibles campañas de publicidad con estrategias de <strong>vanguardia</strong> que dejarán asombrados a todos tus seguidores.</p>
                         </div>
                         <div class="title-section">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/slider/community-manager-icon.svg" alt="">
