@@ -31,6 +31,14 @@
 		webkitRequestAnimationFrame || msRequestAnimationFrame;
 		if (raf) raf(cb);
 		else window.addEventListener('load', cb);</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+		<script>
+		WebFont.load({
+			google: {
+			families: ['Source Sans Pro:400,600,700,400italic,700italic', 'Nunito:400,700']
+			}
+		});
+		</script>
 
 	</body>
 </html>
