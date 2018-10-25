@@ -390,7 +390,18 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 
 // Shortcodes above would be nested like this -
 // [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
+add_filter( 'style_loader_src',  'sdt_remove_ver_css_js', 9999, 2 );
+add_filter( 'script_loader_src', 'sdt_remove_ver_css_js', 9999, 2 );
 
+function sdt_remove_ver_css_js( $src, $handle ) 
+{
+    $handles_with_version = [ 'style' ]; // <-- Adjust to your needs!
+
+    if ( strpos( $src, 'ver=' ) && ! in_array( $handle, $handles_with_version, true ) )
+        $src = remove_query_arg( 'ver', $src );
+
+    return $src;
+}
 /*------------------------------------*\
 	Custom Post Types
 \*------------------------------------*/
