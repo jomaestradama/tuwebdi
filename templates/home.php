@@ -2,8 +2,12 @@
     
 	<main role="main" class="home">
         <section class="main-banner">
-            <div class="item-slider"><img src="<?php echo get_template_directory_uri(); ?>/img/webdi-logo-main.svg" alt=""> <h4>Crea un sitio web <span> para tu negocio</span></h4> </div>
-                   
+            <div class="item-slider">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/webdi-logo-main.svg" alt=""> 
+                <h4>Crea un sitio web <span> para tu negocio</span></h4> 
+            </div>
+            <div class="formulario">
+            <form action=""></form></div>         
                    
         </section>
          <section id="optimizacion-seo-section" class="hero">
@@ -73,7 +77,7 @@
                     <div class="contenedor-section">
                       
                         <div class="descripcion">
-                            <p>Sabemos que tener presencia en las redes sociales, es escencial para hacer crecer tu negocio. Por suerte contamos expertos en el tema y podemos ayudarte en la administración de tus redes sociales. Un community manager podrá crearte un perfil en las redes mas populares de la actualidad, como Facebook, Instagram, Twitter y Youtube. Además de podemos ayudarte a gestionar el contenido, tambien podemos crear increibles campañas de publicidad con estrategias <strong>vanguardistas</strong> que dejarán asombrados a todos tus seguidores o clientes.</p>
+                            <p>Sabemos que tener presencia en las redes sociales, es escencial para hacer crecer tu negocio. Por suerte contamos con expertos en el tema y podemos ayudarte en la administración de tus redes sociales. Un community manager podrá crearte un perfil en las redes mas populares de la actualidad, como Facebook, Instagram, Twitter y Youtube. Además de podemos ayudarte a gestionar el contenido, tambien podemos crear increibles campañas de publicidad con estrategias <strong>vanguardistas</strong> que dejarán asombrados a todos tus seguidores o clientes.</p>
                         </div>
                         <div class="title-section">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/slider/community-manager-icon.svg" alt="">
