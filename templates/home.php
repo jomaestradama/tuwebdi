@@ -2,7 +2,7 @@
     
 	<main role="main" class="home">
         <section class="main-banner">
-            <div class="item-slider"><img src="<?php echo get_template_directory_uri(); ?>/img/webdi-header.png" alt=""> <h4>Crea un sitio web <span> para tu negocio</span></h4> </div>
+            <div class="item-slider"><img src="<?php echo get_template_directory_uri(); ?>/img/webdi-logo-main.svg" alt=""> <h4>Crea un sitio web <span> para tu negocio</span></h4> </div>
                    
                    
         </section>
@@ -69,6 +69,21 @@
                    
         </section>
 
+          <section id="community-body">
+                    <div class="contenedor-section">
+                      
+                        <div class="descripcion">
+                            <p>Creamos páginas web profesionales, creativas y efectivas. Desde eccomerce, CMS con Wordpress, Landings Pages, Sistemas de reservaciones para Tours, sistemas de reservaciones para Restaurantes y para <strong>Hoteles</strong></p>
+                        </div>
+                        <div class="title-section">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/slider/community-manager-icon.svg" alt="">
+                            <h2 class="title text-centered">
+                            Community Management
+                            </h2>
+                        </div>
+                    </div>
+            
+        </section>
 	</main>
 
 

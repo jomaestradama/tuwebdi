@@ -443,8 +443,16 @@ body{
     position: relative;
     padding: 5% 0;
    
+}  
+#community-body{
+    width: 100%;
+    overflow: hidden;
+    background: #6f5dff;
+    position: relative;
+    padding: 5% 0;
+   
 }   
-#mentory-body::after{
+#mentory-body::after, #community-body:after{
     content: " ";
     position: absolute;
     width: 50%;
@@ -452,8 +460,16 @@ body{
     right: 0;
     height: 80px;
     border-radius: 20px;
-    background: #ffffff;
+   
     transform: skewX(-65deg) translateY(33px) translateX(130px);
+
+}
+#mentory-body::after{
+    background: #ffffff;
+}
+#community-body:after{
+   background: #565656;
+
 
 }
 #mentory-body::before{
@@ -468,12 +484,24 @@ body{
     transform: skewX(65deg) translateY(33px) translateX(-130px);
 
 }
-#mentory-body .title{
+#community-body::before{
+    content: " ";
+    position: absolute;
+    width: 50%;
+    top: -38px;
+    left: 0;
+    height: 80px;
+    border-radius: 20px;
+    background: #7dd6c9;
+    transform: skewX(-65deg) translateY(30px) translateX(-210px);
+
+}
+#mentory-body .title,#community-body .title{
     display: flex;
     justify-content:center;
     z-index: 10;
 }
-#mentory-body  .title-section{
+#mentory-body  .title-section, #community-body  .title-section{
     padding: 2%;
     display: flex;
     flex-direction: row;
@@ -507,12 +535,12 @@ body{
     width: 60%;
     font-size: 2rem;
 }
-#mentory-body .descripcion{
+#mentory-body .descripcion, #community-body .descripcion{
     color:#fff;
     font-size: 2rem;
     width: 60%;
 }
-#mentory-body h2{
+#mentory-body h2,#community-body h2{
     padding: 10px;
     z-index: 10;
     font-size: 3rem;
@@ -893,7 +921,7 @@ footer{
    align-items: center;
    position: relative;
     z-index: 20;
-    margin-top: 10%;
+
     
 }
 footer p{
@@ -918,6 +946,12 @@ footer a{
         flex-direction: column;
         width: 90%;
     }
+    #responsive-body .title-section,#optimizacion-seo-section .title-seo-section, #mentory-body .title-section, #community-body .title-section,
+    #mentory-body .descripcion, #community-body .descripcion{
+        width: 100%;
+    
+    }
+   
     #optimizacion-seo-section .descripcion-seo-section, #mentory-body .descripcion, #responsive-body .descripcion-section{
         width: 100%;
         padding: 0;
