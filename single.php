@@ -11,7 +11,7 @@
 
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+				<a href="<?php the_permalink(); ?>" class="imagen-blog" title="<?php the_title(); ?>">
 					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
 				</a>
 			<?php endif; ?>
@@ -19,23 +19,34 @@
 
 			<!-- post title -->
 			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				<a href="<?php the_permalink(); ?>" class="titulo-blog" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
 			<!-- /post title -->
 
 			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
+			<span class="date"><?php the_time('d - F - Y'); ?> </span>
+			<span class="author"><?php _e( 'Autor: ', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+			
 			<!-- /post details -->
+			<div class="sidebar-tag">
+				<?php get_sidebar(); ?>
+			</div>
+			<div class="contenido-post">
 
 			<?php the_content(); // Dynamic Content ?>
+			
+			
+			
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+			</div>
+			<br>
+			<?php the_tags( __( 'Etiquetas: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+			<div class="categoria-tag">
 
-			<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
-
-			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
+			
+			<p><?php _e( 'Categoria: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
+			</div>
+			
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
@@ -62,6 +73,5 @@
 	<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

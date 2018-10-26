@@ -1,12 +1,15 @@
 <?php get_header(); ?>
-
+	<div class="titulo-blog-loop">	
+		<h1><?php _e( 'Ultimos articulos', 'html5blank' ); ?></h1>
+	</div>
 	<main role="main" class="section-blog">
 		<!-- section -->
+	
 		<section class="grid-blog">
-			<div class="item-blog">
-			<h1><?php _e( 'Ultimos articulos', 'html5blank' ); ?></h1>
+			
+		
 
-			</div>
+		
 		
 			<?php get_template_part('loop'); ?>
 
