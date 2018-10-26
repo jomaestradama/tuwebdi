@@ -996,6 +996,13 @@ footer a{
     font-weight: 900;
     color: #6f5dff;
 }
+main ul li{
+    list-style: none;
+    padding-left: 30px;
+    background-image: url(./img/icons/green-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+}
 .author{    
     background: #6dd0de;
     border-radius: 10px;
@@ -1464,6 +1471,7 @@ footer a{
 .imagen-blog img{
 width: 50%;
 }
+
 .contenido-post{
     margin: 5% 0;
     font-size: 1.7rem;
