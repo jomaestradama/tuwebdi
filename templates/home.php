@@ -69,7 +69,7 @@
                         </div>
                         <div class="descripcion">
                             <p>Toda empresa debe tener su propia identidad. Creamos la presencia corporativa de tu Startup o negocio para que pueda tener una imagen más profesional. Diseñamos <strong>logotipos</strong>, banners, sitios web, <strong>aplicaciones móviles</strong>, anuncios para facebook, displays para Ad´s de Google y más.
-                            Contáctanos y te ayudaremos a crear tu personalidad digital.
+                            Contáctanos a <strong>crea@tuwebdi.com</strong> y te ayudaremos a crear tu personalidad digital.
                             </p>
                         </div>
                     </div>
