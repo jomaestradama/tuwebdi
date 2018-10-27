@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+	<div class="container-blog-single">
 
 	<main role="main">
 	<!-- section -->
@@ -28,9 +29,7 @@
 			<span class="author"><?php _e( 'Autor: ', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 			
 			<!-- /post details -->
-			<div class="sidebar-tag">
-				<?php get_sidebar(); ?>
-			</div>
+		
 			<div class="contenido-post">
 
 			<?php the_content(); // Dynamic Content ?>
@@ -72,6 +71,9 @@
 	</section>
 	<!-- /section -->
 	</main>
-
+	<div class="sidebar-tag">
+				<?php get_sidebar(); ?>
+	</div>
+	</div>
 
 <?php get_footer(); ?>

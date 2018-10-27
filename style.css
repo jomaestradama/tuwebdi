@@ -887,9 +887,12 @@ body{
 }
 
 main:not(.home){
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    margin: 0 2%;
     padding:5% 10%;
+}
+.container-blog-single{
+    display: flex;
 }
 .sec{
     grid-row-end: span 1;
@@ -1012,13 +1015,11 @@ main ul li{
     font-weight: 900;
 }
 .sidebar-tag{
-    background-color: #6f5dff;
-    padding: 20px;
-    margin-top: 10px;
-    width: 75%;
+    padding-top:10%;
+    width: 26%;
     position: relative;
 }
-.sidebar-tag::after{
+.sidebar-search::after{
     content: " ";
     position: absolute;
     width: 100%;
@@ -1034,7 +1035,7 @@ main ul li{
 .search-input{
     background: white;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid #6f5dff;
     color: #6dd0de;
     font-weight: 900;
     border-radius: 10px;

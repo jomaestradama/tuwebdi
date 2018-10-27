@@ -39,7 +39,9 @@
 		</section>
 		<!-- /section -->
 	</main>
-
+	<div class="sidebar-bar">
+		<?php get_sidebar(); ?>
+	</div>
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
