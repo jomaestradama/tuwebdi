@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="container-blog-single">
 	<div class="titulo-blog-loop">	
 		<h1><?php _e( 'Ultimos articulos', 'html5blank' ); ?></h1>
 	</div>
@@ -18,7 +19,9 @@
 		</section>
 		<!-- /section -->
 	</main>
+	<div class="sidebar-tag">
+				<?php get_sidebar(); ?>
+	</div>
 
-<?php get_sidebar(); ?>
-
+</div>
 <?php get_footer(); ?>
