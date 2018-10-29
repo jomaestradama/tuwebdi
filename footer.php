@@ -24,5 +24,6 @@
 		<!-- analytics -->
 
 		 <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+		 <script src='https://www.google.com/recaptcha/api.js'></script>
 	</body>
 </html>

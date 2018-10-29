@@ -17,10 +17,12 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
+	
 		<!-- wrapper -->
 		<div class="wrapper">
-
+			<div class="mensaje-icon">
+				<i class="fa fa-envolpe"></i>
+			</div>
 			<!-- header -->
 			<header class="cabecera" role="banner">
 

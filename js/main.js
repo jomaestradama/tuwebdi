@@ -10,23 +10,19 @@ $(document).ready(function(){
         autoplaySpeed: 1000,
       });
 
-    var x=$("#inputBusqueda");
-    $( "#cerrarb" ).click(function() {
-           $("#inputBusqueda").removeClass("aparece");
-        $("#inputBusqueda").addClass("desaparece");
-        
-     
-       
-       
-        
-       $("#inpute").html("<input type='text' value=''> ");
+    var x=$(".boton-cerrar");
+    $( ".boton-cerrar" ).click(function() {
+        $(".formulario").removeClass("show");
+        $(".formulario").addClass("hiden");
+        $(".boton-email").removeClass("hiden");
+        $(".boton-email").addClass("show");
     });
     
-    $("#sea").click(function(){
-        $("#inputBusqueda").removeClass("init");
-            $("#inputBusqueda").removeClass("desaparece");
-           $("#inputBusqueda").addClass("aparece");
-        $("#inpute").html("<input type='text' value=''> ");
+    $(".boton-email").click(function(){
+        $(".formulario").removeClass("hiden");
+        $(".formulario").addClass("show");
+        $(".boton-email").removeClass("show");
+        $(".boton-email").addClass("hiden");
     });
 
 });

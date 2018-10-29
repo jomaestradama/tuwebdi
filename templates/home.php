@@ -6,8 +6,23 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/webdi-logo-main.svg" alt=""> 
                 <h4>Crea un sitio web <span> para tu negocio</span></h4> 
             </div>
-            <div class="formulario">
-            <form action=""></form></div>         
+            <a href="#" class="boton-email show"><i class="fa fa-envelope"></i></a>
+            <div class="formulario hiden">
+                <a href="#" class="boton-cerrar">X</a>
+            <form action="">
+              
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" name="correo"><br>
+                <label for="asunto">Asunto:</label>
+                <textarea type="text" name="asunto" ></textarea><br>
+                <button type="submit"
+                class="g-recaptcha"
+                data-sitekey="6Lc8NXcUAAAAAE9YdLNHGZd5RvSaBrYKC1JIUcmP"
+                data-callback="YourOnSubmitFn">
+                Enviar
+                </button>
+            </form>
+        </div>         
                    
         </section>
          <section id="optimizacion-seo-section" class="hero" itemscope itemtype="http://schema.org/Product">
